@@ -1,0 +1,1 @@
+wscript.CreateObject("wscript.shell").run "powershell -Command ""Start-Process cmd -ArgumentList 'cmd /c cd ""C:\Program Files (x86)\Common Files\Sony Shared\OpenMG\restorable"" && copy *.dat .. && cd ""C:\Program Files (x86)\Sony\SonicStage"" && start Omgjbox.exe' -Verb RunAs""", 0, false
